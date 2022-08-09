@@ -95,7 +95,7 @@ Simply copy paste another object, and change the fields as you want. Don't forge
 
 ## Video tutorial
 If you prefer a video format, here's a YouTube video on how to install and use this tool.
-$Otherwise keep reading for the text version.
+Otherwise keep reading for the text version.
 
 <a href="">video tutorial [coming soon]</a>
 
@@ -132,7 +132,9 @@ Once the application is created, create a new secret key and copy it (either in 
 
 ### 6- Run ``node server.js``
 
-This will create all the required file for the next steps.
+This will start the server and create all the required file for the next steps.
+
+You can also use ``npm start``.
 
 ### 7- Fill in the ``.env`` file
 
@@ -176,3 +178,20 @@ You can check that VRChat is recieving OSC message using the in-game debugging. 
 # Done!
 
 Everything should be working now, and your Twitch viewers should be able to mess with your VRchat avatar using redeems!
+
+### Some handy stuff
+
+You can create a shortcut to launch the console and the server.
+
+- Create a new file anywhere you want with a ``.bat`` extension. Let's say ``startServer.bat``.
+
+- Open it using any text editor.
+
+- Paste and edit the following:
+```
+cd C:\Users\<John Doe>\Desktop\VRChat_Twitch_OSC
+node server.js
+```
+Make sure the path is correct and leads to the correct folder.
+
+All done, you can now just double click on the .bat file to start evreything.

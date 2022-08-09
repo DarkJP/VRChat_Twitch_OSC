@@ -1,0 +1,13 @@
+body {
+    background-color: #161b22;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+button {
+    font-size: 1.5em;
+    padding: 5px;
+}
+a {
+    color: #53c7ed;
+}
