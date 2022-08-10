@@ -29,7 +29,7 @@ router.post('/creds', express.json(), async (req, res) => {
         + process.env.CLIENT_SECRET
         + '&code='
         + req.body.code
-        + '&grant_type=authorization_code&redirect_uri=http://localhost:' + (process.env.CLIENT_ID.DASHBOARD_PORT ?? 621)
+        + '&grant_type=authorization_code&redirect_uri=http://localhost:' + (process.env.DASHBOARD_PORT ?? 621)
     let tokenRes = await fetch(TokenReqStr, {method: 'POST'});
     let tokenAns = await tokenRes.json();
 

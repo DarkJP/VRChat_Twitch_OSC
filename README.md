@@ -97,7 +97,7 @@ Simply copy paste another object, and change the fields as you want. Don't forge
 If you prefer a video format, here's a YouTube video on how to install and use this tool.
 Otherwise keep reading for the text version.
 
-<a href="">video tutorial [coming soon]</a>
+<a href="https://youtu.be/nYCkgi-yVR0">video tutorial</a>
 
 ## Text
 ### 1- Install Node.js
